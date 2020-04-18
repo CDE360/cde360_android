@@ -76,6 +76,7 @@
                 android:textStyle="bold"
                 android:text="@string/login"
                 android:padding="@dimen/standard_padding"
+                android:layout_marginBottom="20dp"
                 app:cornerRadius="@dimen/button_corner_radius" />
 
             <com.google.android.material.button.MaterialButton
@@ -89,6 +90,7 @@
                 android:minWidth="300dp"
                 android:textStyle="bold"
                 android:padding="@dimen/standard_padding"
+                android:visibility="gone"
                 android:text="@string/signup_with_provider"
                 app:cornerRadius="@dimen/button_corner_radius" />
         </LinearLayout>
@@ -100,6 +102,7 @@
             android:layout_marginBottom="10dp"
             android:layout_marginTop="10dp"
             android:gravity="center_horizontal"
+            android:visibility="gone"
             android:onClick="onHostYourOwnServerClick"
             android:text="@string/host_your_own_server"/>
     </LinearLayout>

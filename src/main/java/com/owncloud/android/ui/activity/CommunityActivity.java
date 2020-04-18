@@ -49,7 +49,7 @@ public class CommunityActivity extends FileActivity {
         setupToolbar();
 
         // setup drawer
-        setupDrawer(R.id.nav_community);
+    //    setupDrawer(R.id.nav_community);
 
         ThemeUtils.setColoredTitle(getSupportActionBar(), R.string.drawer_community, this);
 
@@ -145,6 +145,6 @@ public class CommunityActivity extends FileActivity {
     protected void onResume() {
         super.onResume();
 
-        setDrawerMenuItemChecked(R.id.nav_community);
+    //    setDrawerMenuItemChecked(R.id.nav_community);
     }
 }
